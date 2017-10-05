@@ -1,0 +1,29 @@
+{
+    "name": "node-link/cakephp-smarty",
+    "description": "Make Smarty available with CakePHP.",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "smarty"
+    ],
+    "homepage": "https://github.com/node-link/cakephp-smarty",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^3.4",
+        "smarty/smarty": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NodeLink\\Smarty\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NodeLink\\Smarty\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
