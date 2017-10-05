@@ -9,6 +9,7 @@
     "homepage": "https://github.com/node-link/cakephp-smarty",
     "license": "MIT",
     "require": {
+        "php": ">=5.5",
         "cakephp/cakephp": "^3.4",
         "smarty/smarty": "^3.1"
     },
